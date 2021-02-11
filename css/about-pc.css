@@ -1,0 +1,154 @@
+/*///// INIT /////*/
+		*
+		{			
+			font-family: poppins,Helvetica,sans-serif;
+			line-height: 1.65em;
+			color: #555;
+			font-size: 15px;
+		}
+		
+		body
+		{
+			background-color: #f2f7f9;
+		}
+		
+		.benedict h1, .benedict h2, .benedict h3, .benedict h4, .benedict h5, .benedict h6,
+		{
+			color: #222;
+			font-size: 27px;
+			font-weight: 600;
+		}
+/*///// BLOC DE TRAVAIL /////*/
+		.content
+		{
+			display: flex;
+			flex-direction: column;
+			background-color: #ffffff;
+			height: 100%;
+			border-radius: 2.5em;
+			margin-left: 2.5%;
+			min-height: 80vh;
+		}
+		
+		.contentsubbloc
+		{
+			display: flex;
+			flex-direction: row;
+		}
+		
+/*///// TITRES PRINCIPAUX /////*/
+		.pagetitle
+		{
+			display: flex;
+			padding-right: 25px;
+			padding-bottom: 15px;
+			margin-top: 50px;
+			margin-left: 90px;
+			margin-bottom: 30px;
+			position: relative;
+			height: 50px;
+		}
+		
+		.pagetitle h2, .pagetitle h3 
+		{
+			margin: 0;
+			font-size: 32px;
+		}
+		
+		.pagetitle span
+		{
+			color: #04b4e0;
+			font-size: 32px;
+		}
+/*///// POINTILLÉS /////*/
+		.pagetitle::after
+		{
+			position: relative;
+			opacity: 0.45;
+			top: 18px;
+			right: 25px;
+			content: '';
+			height: 35px;
+			width: 45px;
+			background-image: -moz-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+			background-image:-webkit-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    		background-image:-moz-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    		background-image:-ms-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    		-webkit-background-size:6px 6px;
+    		-moz-background-size:6px 6px;
+			background-size: 6px 6px;
+			z-index: 0;
+		}
+/*/////  /////*/
+		.leftcontentinfo
+		{
+			margin: 0px 90px 20px 90px;
+			width: 60%;
+		}
+		
+		.rightcontentinfo
+		{
+			width: 40%;
+			margin: 0px 90px 20px 90px;
+		}
+		
+		.rightcontentinfo span
+		{
+			color: #04b4e0;
+			font-weight: bolder;
+		}
+/*/////  /////*/
+		.contentsubbloc2
+		{
+			margin: 20px 90px 20px 90px;
+		}
+		
+		.contentsubbloc2 img
+		{
+			width: 40px;
+			height: auto;
+		}
+		
+		.tablecolsub2
+		{
+			display: flex;
+			flex-direction: row;
+		}
+
+/*///// ! A IGNORER ! /////*/
+		.info
+		{
+			display: flex;
+			background-color: grey;
+			width: 200px;
+			height: 200px;
+			margin: 2.5%;
+		}
+		.profilepic
+		{
+			width: 180px;
+			height: 180px;
+		}
+		
+		.ppictureobject
+		{
+			max-width: 100%;
+			max-height: 100%;
+			justify-content: center;
+			align-items: center;
+		}
+
+/*///// BLOC BLEU /////*/
+		.main
+		{
+			display: flex;
+			flex-direction: row;
+			background-color: #04b4e0;
+			align-items: center;
+			width: 90%;
+			height: 100%;
+			border-radius: 2.5em;
+			max-width: 1280px;
+			min-height: 80vh;
+			margin: 10vh auto;
+		}

@@ -1,0 +1,78 @@
+.sectionPortfolio {
+    position: absolute;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.pageTitle {
+    display: inline-block;
+    position: relative;
+    padding: 60px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.pageTitle h2 {
+    color: #222;
+    font-weight: 600;
+    position: relative;
+    font-size: 32px;
+    z-index: 1;
+}
+.pageTitle::after{
+        
+    position: absolute;
+    opacity: 0.45;
+    top: 110px;
+    right: 25px;
+    content: '';
+    height: 30px;
+    width: 60px;
+    background-image: -moz-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-size: 6px 6px;
+    z-index: 1;
+    background-image:-webkit-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-image:-moz-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-image:-ms-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    -webkit-background-size:6px 6px;
+    -moz-background-size:6px 6px;
+    background-size:6px 6px;
+}
+
+.portfolioPositionUp {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    padding: 0 60px 60px 60px;
+}
+
+.portfolioPositionDown {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    padding: 60px;
+}
+
+.portfolioItem {
+    margin: 0;
+    width: 33%;
+    height: 50%;
+}
+
+
+.portfolioItem img {
+    opacity: 0.7;
+    width: 95%;
+    height: 100%;
+
+}
+.portfolioItem img:hover {
+    opacity: 1;
+    /* transform: scale(1.2); */
+}

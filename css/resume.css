@@ -1,0 +1,360 @@
+
+.pageTitles{
+	display: flex;							
+    margin-left: 3%;
+}
+
+.pageTitles h2{
+    font-size: 36px;
+}
+.pageTitles::after{
+    position:relative;					
+    opacity: 0.45;
+    top: 60px;
+    right: 20px;
+    content: '';
+    height: 25px;
+    width: 45px;
+    background-image: -moz-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-size: 6px 6px;
+    z-index: 0;
+    background-image:-webkit-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-image:-moz-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-image:-ms-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    -webkit-background-size:6px 6px;
+    -moz-background-size:6px 6px;
+    background-size:6px 6px;
+}
+
+#mainPart{
+    display:flex;
+    flex-direction: row;
+    max-width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#mainPart h3 {
+    font-size: 24px;
+}
+
+#partLeft{
+    width: 55%;
+    height: auto;
+    margin: 0;
+    margin-right: 3%;
+}
+#partRight{
+    width: 45%;
+    height: auto;
+    margin: 0;
+}
+
+/****************************PART LEFT********************/
+.partLeftBlock{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/***********************DIVIDER BAR**********************/
+.divider{    
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 10%;
+    align-items: center;
+
+}
+.topDivider{
+    width: 1px;
+    height: 10%;
+    background-color: black;
+    opacity: 5%;
+    align-items: center;   
+}
+.circleDivider{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:  white;
+    box-shadow: 1px 0px 0px  #04b4e0, 1px 1px 0px  #04b4e0, 0 1px 0px  #04b4e0, -1px 1px 0px  #04b4e0, -1px 0px 0px  #04b4e0, -1px -1px 0px  #04b4e0, 0px -1px 0px  #04b4e0, 1px -1px 0px  #04b4e0,0 1.5px 1.5px #04b4e0, -1.5px 1.5px 1.5px #04b4e0, -1.5px 0 1.5px #04b4e0, -1.5px -1.5px 1.5px #04b4e0, 0 -1.5px 1.5px #04b4e0, 1.5px -1.5px 15px #04b4e0;
+    padding-left: auto;
+    padding-right: auto;
+}
+.bottomDivider{
+    width: 1px;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    opacity: 5%;
+}
+.partLeftContainer{
+    width: 15%;
+}
+.partRightContainer{
+    width:  75%;
+}
+.itemTitle{
+    margin-top: 0%;
+    font-size: 1.1em;
+}
+.itemPeriod{
+    margin-top: 0%;
+    text-align: right;
+}
+.itemCompany{
+    opacity: 35%;
+    text-align: right;
+    font-size: 0.9em;
+}
+.leftH4{
+    margin-top: 0;
+}
+.blockTitle{
+    font-size: 1.3em;
+    width: 100%;
+	display: flex;						
+}
+.blockTitle::after{
+    position: relative;
+    opacity: 0.45;
+    top: 40px;
+    right: 20px;
+    content: '';
+    height: 25px;
+    width: 45px;
+    background-image: -moz-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-size: 6px 6px;
+    background-image: -moz-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-size: 6px 6px;
+    z-index: 0;
+    background-image:-webkit-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-image:-moz-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-image:-ms-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    -webkit-background-size:6px 6px;
+    -moz-background-size:6px 6px;
+    background-size:6px 6px;            
+}
+
+/*************************RIGHT PART********************/
+.blueDesign{
+    color: #04b4e0;
+    font-size: 24px;
+}
+.partRightBlock{
+    width: 100%;
+}
+.skillsInfo{
+    width: 100%;
+}
+.blocSkill{
+    width: 100%;
+    margin-right: 0;
+}
+.skillTitle{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 0%;
+    padding-bottom: 0;
+    align-items: baseline;
+}
+.skillName{
+    width: 100%;
+    margin-bottom: 0;
+}
+.skillValue{
+    text-align: right;
+    font-size: 0.8em;
+    width: 20%;
+    height: 5%;
+    margin-right: 5%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.value{
+    margin-bottom: 0;
+}
+.CertificateTitle{    
+    width: 100%;
+	display: flex;					
+}
+.CertificateTitle h3 {
+    font-size: 24px;
+}
+.CertificateTitle::after{
+    position: relative;
+    opacity: 0.45;
+    top: 40px;
+    right: 20px;
+    content: '';
+    height: 25px;
+    width: 45px;
+    background-image: -moz-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-size: 6px 6px;
+    background-image: -moz-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-size: 6px 6px;
+    z-index: 0;
+    background-image:-webkit-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-image:-moz-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    background-image:-ms-repeating-radial-gradient(center center,#04b4e0,#04b4e0 1px,transparent 0px,transparent 100%);
+    -webkit-background-size:6px 6px;
+    -moz-background-size:6px 6px;
+    background-size:6px 6px;           
+}
+
+
+/**************PROGRESS BAR***************/
+.skillBar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 12px;
+    border: solid 1px #04b4e0;
+    margin-top: 0%;
+    padding: 1%;
+    border-radius: 5em;
+}
+#progressBar1{
+    width: 95%;
+    height: 80%;
+    background-color: #04b4e0;
+    border-radius: 5em;
+    margin-bottom: auto;
+    margin-top: auto;    
+}
+#progressBar2{
+    width: 65%;
+    height: 80%;
+    background-color: #04b4e0;
+    border-radius: 5em;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#progressBar3{
+    width: 80%;
+    height: 80%;
+    background-color: #04b4e0;
+    border-radius: 5em;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#progressBar4{
+    width: 90%;
+    height: 80%;
+    background-color: #04b4e0;
+    border-radius: 5em;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#JsProgressBar1{
+    width: 95%;
+    height: 80%;
+    background-color: #04b4e0;
+    border-radius: 5em;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#PhpProgressBar2{
+    width: 85%;
+    height: 80%;
+    background-color: #04b4e0;
+    border-radius: 5em;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#htmlProgressBar3{
+    width: 100%;
+    height: 80%;
+    background-color: #04b4e0;
+    border-radius: 5em;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#smartProgressBar4{
+    width: 75%;
+    height: 80%;
+    background-color: #04b4e0;
+    border-radius: 5em;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#perlProgressBar5{
+    width: 90%;
+    height: 80%;
+    background-color: #04b4e0;
+    border-radius: 5em;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+/******************KNOWLEDGES************************/
+
+.knowledges{
+    list-style: none;
+    padding: 0;
+}
+.knowledges li{
+    display: inline-block;
+    background-color: #04b4e0;
+    border-radius: 3px;
+    color: #fff;
+    padding: 1px 10px;
+    margin: 3px 2px;
+}
+
+/***********************BOTTOM PART*********************/
+#partBottom{
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+#bottomCertificates{
+    display: flex;
+    flex-direction: row;
+    width: 100%;		
+}
+.certificatesBox{
+    border: 3px solid #e5e5e5; 
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    width: 50%;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+.certificatePartLeft{
+    width: 30%;
+    height: auto;
+    background-color: #f5f5f5;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    text-align: center;
+    display: flex;					
+	align-items: center;
+	justify-content: center;
+}
+.bold{
+    font-weight: bold;
+}
+.partLeftP{
+    margin: 0;
+    padding: 0;
+}
+.certificatePartRight{
+    width: 60%;
+    margin-left: 5%;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;   
+}
+.certificateTitle{
+    font-size: 1.5em;
+}
+.certificateId{
+    font-size: 1.3em;
+}
